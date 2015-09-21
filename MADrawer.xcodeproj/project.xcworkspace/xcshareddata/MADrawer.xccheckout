@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EB427DDB-F6FF-497A-812C-81B91689DA29</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MADrawer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FE91C65FC07B6607A92EDFC16D090983D1639DB7</key>
+		<string>https://bitbucket.org/mahjabinalam/madrawer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MADrawer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FE91C65FC07B6607A92EDFC16D090983D1639DB7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/mahjabinalam/madrawer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FE91C65FC07B6607A92EDFC16D090983D1639DB7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FE91C65FC07B6607A92EDFC16D090983D1639DB7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>madrawer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

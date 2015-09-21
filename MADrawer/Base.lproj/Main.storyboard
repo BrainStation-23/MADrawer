@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="skb-rT-gBW">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Round Edged Drawer-->
+        <scene sceneID="beC-Zi-jAh">
+            <objects>
+                <viewController id="n2h-cu-r5l" customClass="RoundEdgedDrawerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ly5-nx-kLU"/>
+                        <viewControllerLayoutGuide type="bottom" id="0d2-yg-9aR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0x4-9h-zyo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sample_image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5BY-09-shY">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5BY-09-shY" firstAttribute="top" secondItem="0x4-9h-zyo" secondAttribute="top" id="8bw-gf-OZK"/>
+                            <constraint firstAttribute="trailing" secondItem="5BY-09-shY" secondAttribute="trailing" id="BQf-Px-BPn"/>
+                            <constraint firstItem="5BY-09-shY" firstAttribute="leading" secondItem="0x4-9h-zyo" secondAttribute="leading" id="DYI-YG-E4x"/>
+                            <constraint firstItem="0d2-yg-9aR" firstAttribute="top" secondItem="5BY-09-shY" secondAttribute="bottom" id="TPB-fA-3JQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Round Edged Drawer" id="9xY-Fc-4LO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YJE-e9-ag8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="594" y="-20"/>
+        </scene>
+        <!--Simple Style Drawer-->
+        <scene sceneID="o5C-9P-H4o">
+            <objects>
+                <viewController id="b33-b6-bXF" customClass="SimpleDrawerStyledViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="clx-f7-1cV"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pih-M3-1hz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YhG-sg-3tz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sample_image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="O7v-Uj-JkA">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="O7v-Uj-JkA" firstAttribute="top" secondItem="YhG-sg-3tz" secondAttribute="top" id="Sg0-aS-uv4"/>
+                            <constraint firstItem="O7v-Uj-JkA" firstAttribute="leading" secondItem="YhG-sg-3tz" secondAttribute="leading" id="aqR-HJ-1AW"/>
+                            <constraint firstAttribute="trailing" secondItem="O7v-Uj-JkA" secondAttribute="trailing" id="da9-sV-hfU"/>
+                            <constraint firstItem="Pih-M3-1hz" firstAttribute="top" secondItem="O7v-Uj-JkA" secondAttribute="bottom" id="xW6-nv-dgk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Simple Style Drawer" id="g6m-SY-ohl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aPg-qE-hH3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2116" y="-391"/>
+        </scene>
+        <!--groupStylesNavController-->
+        <scene sceneID="h8v-Yj-JsN">
+            <objects>
+                <viewController title="groupStylesNavController" id="jKF-39-amJ" customClass="GroupedDrawerStyledViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wr6-Ie-jtM"/>
+                        <viewControllerLayoutGuide type="bottom" id="BZw-4H-h2j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H8R-xC-w3b">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sample_image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="a4h-r8-469">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="a4h-r8-469" secondAttribute="trailing" id="CfA-ed-SaD"/>
+                            <constraint firstItem="a4h-r8-469" firstAttribute="top" secondItem="H8R-xC-w3b" secondAttribute="top" id="hWs-CZ-t2k"/>
+                            <constraint firstItem="BZw-4H-h2j" firstAttribute="top" secondItem="a4h-r8-469" secondAttribute="bottom" id="ll3-4Y-oHx"/>
+                            <constraint firstItem="a4h-r8-469" firstAttribute="leading" secondItem="H8R-xC-w3b" secondAttribute="leading" id="sdj-U5-iyv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Grouped Style Drawer" id="1AE-RB-oT3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LSH-P2-p7P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2122" y="469"/>
+        </scene>
+        <!--roundEdgedNavController-->
+        <scene sceneID="SaN-jA-dNe">
+            <objects>
+                <navigationController title="roundEdgedNavController" automaticallyAdjustsScrollViewInsets="NO" id="skb-rT-gBW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kSg-SK-694">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="n2h-cu-r5l" kind="relationship" relationship="rootViewController" id="Vtx-oB-AlR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k7n-3l-1dY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-70" y="-20"/>
+        </scene>
+        <!--simpleStyledNavController-->
+        <scene sceneID="8sL-gk-yQY">
+            <objects>
+                <navigationController title="simpleStyledNavController" automaticallyAdjustsScrollViewInsets="NO" id="AnU-7z-MUH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iT0-xV-RxY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="b33-b6-bXF" kind="relationship" relationship="rootViewController" id="aau-9L-J51"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ncX-ca-NTG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1304" y="-391"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2vw-TF-W1i">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KjW-Hg-Ccb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zwo-za-StV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jKF-39-amJ" kind="relationship" relationship="rootViewController" id="hkk-vX-1H0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xie-sF-Eug" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1310" y="469"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sample_image.jpg" width="600" height="600"/>
+    </resources>
+</document>

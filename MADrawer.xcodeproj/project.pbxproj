@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A107C291BA6DCF6007D6EDC /* sample_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A107C281BA6DCF6007D6EDC /* sample_image.jpg */; };
+		4A644DB71BABDC7F00BC90C6 /* SimpleDrawerStyledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A644DB61BABDC7F00BC90C6 /* SimpleDrawerStyledViewController.m */; };
+		4A644DBB1BABDCBF00BC90C6 /* GroupedDrawerStyledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A644DBA1BABDCBF00BC90C6 /* GroupedDrawerStyledViewController.m */; };
+		4A644DF21BAC170400BC90C6 /* MADrawerPlainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A644DEF1BAC170400BC90C6 /* MADrawerPlainCell.m */; };
+		4A644DF31BAC170400BC90C6 /* MADrawerRoundCornerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A644DF11BAC170400BC90C6 /* MADrawerRoundCornerCell.m */; };
+		4A644DFA1BAC171B00BC90C6 /* MAGroupedDrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A644DF51BAC171B00BC90C6 /* MAGroupedDrawerView.m */; };
+		4A644DFB1BAC171B00BC90C6 /* MAPlainDrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A644DF71BAC171B00BC90C6 /* MAPlainDrawerView.m */; };
+		4A644DFC1BAC171B00BC90C6 /* MARoundDrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A644DF91BAC171B00BC90C6 /* MARoundDrawerView.m */; };
+		4A644DFF1BAC172C00BC90C6 /* MADrawerManagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A644DFE1BAC172C00BC90C6 /* MADrawerManagerView.m */; };
+		4A644E011BAC176000BC90C6 /* drawer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A644E001BAC176000BC90C6 /* drawer.jpg */; };
+		4A644E041BAC178200BC90C6 /* UIView+UIViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A644E031BAC178200BC90C6 /* UIView+UIViewExtension.m */; };
+		6CA277F11BA5B42800B7F108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA277F01BA5B42800B7F108 /* main.m */; };
+		6CA277F41BA5B42800B7F108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA277F31BA5B42800B7F108 /* AppDelegate.m */; };
+		6CA277FA1BA5B42800B7F108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA277F81BA5B42800B7F108 /* Main.storyboard */; };
+		6CA277FC1BA5B42800B7F108 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA277FB1BA5B42800B7F108 /* Images.xcassets */; };
+		6CA277FF1BA5B42800B7F108 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CA277FD1BA5B42800B7F108 /* LaunchScreen.xib */; };
+		6CA2780B1BA5B42800B7F108 /* MADrawerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2780A1BA5B42800B7F108 /* MADrawerTests.m */; };
+		6CA278191BA5B4C000B7F108 /* RoundEdgedDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA278181BA5B4C000B7F108 /* RoundEdgedDrawerViewController.m */; };
+		6CA278211BA5B6AB00B7F108 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA2781F1BA5B6A100B7F108 /* QuartzCore.framework */; };
+		6CA278241BA5B6C300B7F108 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA278221BA5B6BB00B7F108 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CA278051BA5B42800B7F108 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CA277E31BA5B42800B7F108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA277EA1BA5B42800B7F108;
+			remoteInfo = MADrawer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A107C281BA6DCF6007D6EDC /* sample_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_image.jpg; sourceTree = "<group>"; };
+		4A644DB51BABDC7F00BC90C6 /* SimpleDrawerStyledViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleDrawerStyledViewController.h; sourceTree = "<group>"; };
+		4A644DB61BABDC7F00BC90C6 /* SimpleDrawerStyledViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleDrawerStyledViewController.m; sourceTree = "<group>"; };
+		4A644DB91BABDCBF00BC90C6 /* GroupedDrawerStyledViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupedDrawerStyledViewController.h; sourceTree = "<group>"; };
+		4A644DBA1BABDCBF00BC90C6 /* GroupedDrawerStyledViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupedDrawerStyledViewController.m; sourceTree = "<group>"; };
+		4A644DEE1BAC170400BC90C6 /* MADrawerPlainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MADrawerPlainCell.h; path = Class/MADrawerPlainCell.h; sourceTree = "<group>"; };
+		4A644DEF1BAC170400BC90C6 /* MADrawerPlainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MADrawerPlainCell.m; path = Class/MADrawerPlainCell.m; sourceTree = "<group>"; };
+		4A644DF01BAC170400BC90C6 /* MADrawerRoundCornerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MADrawerRoundCornerCell.h; path = Class/MADrawerRoundCornerCell.h; sourceTree = "<group>"; };
+		4A644DF11BAC170400BC90C6 /* MADrawerRoundCornerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MADrawerRoundCornerCell.m; path = Class/MADrawerRoundCornerCell.m; sourceTree = "<group>"; };
+		4A644DF41BAC171B00BC90C6 /* MAGroupedDrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MAGroupedDrawerView.h; path = Class/MAGroupedDrawerView.h; sourceTree = "<group>"; };
+		4A644DF51BAC171B00BC90C6 /* MAGroupedDrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MAGroupedDrawerView.m; path = Class/MAGroupedDrawerView.m; sourceTree = "<group>"; };
+		4A644DF61BAC171B00BC90C6 /* MAPlainDrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MAPlainDrawerView.h; path = Class/MAPlainDrawerView.h; sourceTree = "<group>"; };
+		4A644DF71BAC171B00BC90C6 /* MAPlainDrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MAPlainDrawerView.m; path = Class/MAPlainDrawerView.m; sourceTree = "<group>"; };
+		4A644DF81BAC171B00BC90C6 /* MARoundDrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MARoundDrawerView.h; path = Class/MARoundDrawerView.h; sourceTree = "<group>"; };
+		4A644DF91BAC171B00BC90C6 /* MARoundDrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MARoundDrawerView.m; path = Class/MARoundDrawerView.m; sourceTree = "<group>"; };
+		4A644DFD1BAC172C00BC90C6 /* MADrawerManagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MADrawerManagerView.h; path = Class/MADrawerManagerView.h; sourceTree = "<group>"; };
+		4A644DFE1BAC172C00BC90C6 /* MADrawerManagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MADrawerManagerView.m; path = Class/MADrawerManagerView.m; sourceTree = "<group>"; };
+		4A644E001BAC176000BC90C6 /* drawer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = drawer.jpg; path = icon/drawer.jpg; sourceTree = "<group>"; };
+		4A644E021BAC178200BC90C6 /* UIView+UIViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+UIViewExtension.h"; path = "Class/UIView+UIViewExtension.h"; sourceTree = "<group>"; };
+		4A644E031BAC178200BC90C6 /* UIView+UIViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+UIViewExtension.m"; path = "Class/UIView+UIViewExtension.m"; sourceTree = "<group>"; };
+		6CA277EB1BA5B42800B7F108 /* MADrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MADrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA277EF1BA5B42800B7F108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA277F01BA5B42800B7F108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CA277F21BA5B42800B7F108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CA277F31BA5B42800B7F108 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CA277F91BA5B42800B7F108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CA277FB1BA5B42800B7F108 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CA277FE1BA5B42800B7F108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6CA278041BA5B42800B7F108 /* MADrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MADrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA278091BA5B42800B7F108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA2780A1BA5B42800B7F108 /* MADrawerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADrawerTests.m; sourceTree = "<group>"; };
+		6CA278171BA5B4C000B7F108 /* RoundEdgedDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundEdgedDrawerViewController.h; sourceTree = "<group>"; };
+		6CA278181BA5B4C000B7F108 /* RoundEdgedDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundEdgedDrawerViewController.m; sourceTree = "<group>"; };
+		6CA2781F1BA5B6A100B7F108 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6CA278221BA5B6BB00B7F108 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CA277E81BA5B42800B7F108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA278211BA5B6AB00B7F108 /* QuartzCore.framework in Frameworks */,
+				6CA278241BA5B6C300B7F108 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA278011BA5B42800B7F108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A107C221BA69F62007D6EDC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4A644E001BAC176000BC90C6 /* drawer.jpg */,
+				4A107C281BA6DCF6007D6EDC /* sample_image.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		4A7BE3E31BA7176900617479 /* Drawer Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4A644DEE1BAC170400BC90C6 /* MADrawerPlainCell.h */,
+				4A644DEF1BAC170400BC90C6 /* MADrawerPlainCell.m */,
+				4A644DF01BAC170400BC90C6 /* MADrawerRoundCornerCell.h */,
+				4A644DF11BAC170400BC90C6 /* MADrawerRoundCornerCell.m */,
+			);
+			name = "Drawer Cells";
+			sourceTree = "<group>";
+		};
+		4A7BE3E41BA717A800617479 /* Drawer Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A644DF41BAC171B00BC90C6 /* MAGroupedDrawerView.h */,
+				4A644DF51BAC171B00BC90C6 /* MAGroupedDrawerView.m */,
+				4A644DF61BAC171B00BC90C6 /* MAPlainDrawerView.h */,
+				4A644DF71BAC171B00BC90C6 /* MAPlainDrawerView.m */,
+				4A644DF81BAC171B00BC90C6 /* MARoundDrawerView.h */,
+				4A644DF91BAC171B00BC90C6 /* MARoundDrawerView.m */,
+			);
+			name = "Drawer Views";
+			sourceTree = "<group>";
+		};
+		6CA277E21BA5B42800B7F108 = {
+			isa = PBXGroup;
+			children = (
+				6CA277ED1BA5B42800B7F108 /* MADrawer */,
+				6CA278071BA5B42800B7F108 /* MADrawerTests */,
+				6CA277EC1BA5B42800B7F108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CA277EC1BA5B42800B7F108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CA277EB1BA5B42800B7F108 /* MADrawer.app */,
+				6CA278041BA5B42800B7F108 /* MADrawerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CA277ED1BA5B42800B7F108 /* MADrawer */ = {
+			isa = PBXGroup;
+			children = (
+				6CA2781E1BA5B69100B7F108 /* Frameworks */,
+				6CA2781A1BA5B5CD00B7F108 /* Category */,
+				6CA278161BA5B44700B7F108 /* Resources */,
+				6CA278151BA5B44100B7F108 /* Controller */,
+				6CA278141BA5B43900B7F108 /* View */,
+				6CA277FB1BA5B42800B7F108 /* Images.xcassets */,
+				6CA277FD1BA5B42800B7F108 /* LaunchScreen.xib */,
+				6CA277EE1BA5B42800B7F108 /* Supporting Files */,
+			);
+			path = MADrawer;
+			sourceTree = "<group>";
+		};
+		6CA277EE1BA5B42800B7F108 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CA277EF1BA5B42800B7F108 /* Info.plist */,
+				6CA277F01BA5B42800B7F108 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CA278071BA5B42800B7F108 /* MADrawerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CA2780A1BA5B42800B7F108 /* MADrawerTests.m */,
+				6CA278081BA5B42800B7F108 /* Supporting Files */,
+			);
+			path = MADrawerTests;
+			sourceTree = "<group>";
+		};
+		6CA278081BA5B42800B7F108 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CA278091BA5B42800B7F108 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CA278141BA5B43900B7F108 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CA278251BA5B75D00B7F108 /* Custom Views */,
+				6CA277F81BA5B42800B7F108 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6CA278151BA5B44100B7F108 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A644DB51BABDC7F00BC90C6 /* SimpleDrawerStyledViewController.h */,
+				4A644DB61BABDC7F00BC90C6 /* SimpleDrawerStyledViewController.m */,
+				4A644DB91BABDCBF00BC90C6 /* GroupedDrawerStyledViewController.h */,
+				4A644DBA1BABDCBF00BC90C6 /* GroupedDrawerStyledViewController.m */,
+				6CA278171BA5B4C000B7F108 /* RoundEdgedDrawerViewController.h */,
+				6CA278181BA5B4C000B7F108 /* RoundEdgedDrawerViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6CA278161BA5B44700B7F108 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A107C221BA69F62007D6EDC /* images */,
+				6CA277F21BA5B42800B7F108 /* AppDelegate.h */,
+				6CA277F31BA5B42800B7F108 /* AppDelegate.m */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6CA2781A1BA5B5CD00B7F108 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4A644E021BAC178200BC90C6 /* UIView+UIViewExtension.h */,
+				4A644E031BAC178200BC90C6 /* UIView+UIViewExtension.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		6CA2781E1BA5B69100B7F108 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CA278221BA5B6BB00B7F108 /* CoreGraphics.framework */,
+				6CA2781F1BA5B6A100B7F108 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CA278251BA5B75D00B7F108 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A644DFD1BAC172C00BC90C6 /* MADrawerManagerView.h */,
+				4A644DFE1BAC172C00BC90C6 /* MADrawerManagerView.m */,
+				4A7BE3E31BA7176900617479 /* Drawer Cells */,
+				4A7BE3E41BA717A800617479 /* Drawer Views */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CA277EA1BA5B42800B7F108 /* MADrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA2780E1BA5B42800B7F108 /* Build configuration list for PBXNativeTarget "MADrawer" */;
+			buildPhases = (
+				6CA277E71BA5B42800B7F108 /* Sources */,
+				6CA277E81BA5B42800B7F108 /* Frameworks */,
+				6CA277E91BA5B42800B7F108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MADrawer;
+			productName = MADrawer;
+			productReference = 6CA277EB1BA5B42800B7F108 /* MADrawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CA278031BA5B42800B7F108 /* MADrawerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA278111BA5B42800B7F108 /* Build configuration list for PBXNativeTarget "MADrawerTests" */;
+			buildPhases = (
+				6CA278001BA5B42800B7F108 /* Sources */,
+				6CA278011BA5B42800B7F108 /* Frameworks */,
+				6CA278021BA5B42800B7F108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CA278061BA5B42800B7F108 /* PBXTargetDependency */,
+			);
+			name = MADrawerTests;
+			productName = MADrawerTests;
+			productReference = 6CA278041BA5B42800B7F108 /* MADrawerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CA277E31BA5B42800B7F108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Brainstation-23";
+				TargetAttributes = {
+					6CA277EA1BA5B42800B7F108 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					6CA278031BA5B42800B7F108 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6CA277EA1BA5B42800B7F108;
+					};
+				};
+			};
+			buildConfigurationList = 6CA277E61BA5B42800B7F108 /* Build configuration list for PBXProject "MADrawer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CA277E21BA5B42800B7F108;
+			productRefGroup = 6CA277EC1BA5B42800B7F108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CA277EA1BA5B42800B7F108 /* MADrawer */,
+				6CA278031BA5B42800B7F108 /* MADrawerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CA277E91BA5B42800B7F108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA277FA1BA5B42800B7F108 /* Main.storyboard in Resources */,
+				4A644E011BAC176000BC90C6 /* drawer.jpg in Resources */,
+				6CA277FF1BA5B42800B7F108 /* LaunchScreen.xib in Resources */,
+				4A107C291BA6DCF6007D6EDC /* sample_image.jpg in Resources */,
+				6CA277FC1BA5B42800B7F108 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA278021BA5B42800B7F108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CA277E71BA5B42800B7F108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA277F41BA5B42800B7F108 /* AppDelegate.m in Sources */,
+				4A644DBB1BABDCBF00BC90C6 /* GroupedDrawerStyledViewController.m in Sources */,
+				4A644DF31BAC170400BC90C6 /* MADrawerRoundCornerCell.m in Sources */,
+				4A644DB71BABDC7F00BC90C6 /* SimpleDrawerStyledViewController.m in Sources */,
+				6CA278191BA5B4C000B7F108 /* RoundEdgedDrawerViewController.m in Sources */,
+				4A644DF21BAC170400BC90C6 /* MADrawerPlainCell.m in Sources */,
+				6CA277F11BA5B42800B7F108 /* main.m in Sources */,
+				4A644DFC1BAC171B00BC90C6 /* MARoundDrawerView.m in Sources */,
+				4A644DFF1BAC172C00BC90C6 /* MADrawerManagerView.m in Sources */,
+				4A644E041BAC178200BC90C6 /* UIView+UIViewExtension.m in Sources */,
+				4A644DFB1BAC171B00BC90C6 /* MAPlainDrawerView.m in Sources */,
+				4A644DFA1BAC171B00BC90C6 /* MAGroupedDrawerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA278001BA5B42800B7F108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA2780B1BA5B42800B7F108 /* MADrawerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CA278061BA5B42800B7F108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA277EA1BA5B42800B7F108 /* MADrawer */;
+			targetProxy = 6CA278051BA5B42800B7F108 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CA277F81BA5B42800B7F108 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA277F91BA5B42800B7F108 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CA277FD1BA5B42800B7F108 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA277FE1BA5B42800B7F108 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CA2780C1BA5B42800B7F108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CA2780D1BA5B42800B7F108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CA2780F1BA5B42800B7F108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Raisul Kabir (M6ZE95VW75)";
+				INFOPLIST_FILE = MADrawer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e2017743-45a4-4220-bc44-83f5420ccfe5";
+			};
+			name = Debug;
+		};
+		6CA278101BA5B42800B7F108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Raisul Kabir (M6ZE95VW75)";
+				INFOPLIST_FILE = MADrawer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e2017743-45a4-4220-bc44-83f5420ccfe5";
+			};
+			name = Release;
+		};
+		6CA278121BA5B42800B7F108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MADrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MADrawer.app/MADrawer";
+			};
+			name = Debug;
+		};
+		6CA278131BA5B42800B7F108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MADrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MADrawer.app/MADrawer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CA277E61BA5B42800B7F108 /* Build configuration list for PBXProject "MADrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA2780C1BA5B42800B7F108 /* Debug */,
+				6CA2780D1BA5B42800B7F108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA2780E1BA5B42800B7F108 /* Build configuration list for PBXNativeTarget "MADrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA2780F1BA5B42800B7F108 /* Debug */,
+				6CA278101BA5B42800B7F108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA278111BA5B42800B7F108 /* Build configuration list for PBXNativeTarget "MADrawerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA278121BA5B42800B7F108 /* Debug */,
+				6CA278131BA5B42800B7F108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CA277E31BA5B42800B7F108 /* Project object */;
+}
